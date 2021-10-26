@@ -1,0 +1,16 @@
+{
+  "name": "solidity-deploy",
+  "version": "1.0.0",
+  "description": "- Pure: Does not read or write to storage (pure) - View: Reads but cannot write to storage (view) - Nonpayable: Can read and write to storage (default) - Payable: Can read and write to storage, and also accept ether (payable)",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1"
+  }
+}
